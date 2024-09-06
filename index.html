@@ -1,0 +1,35 @@
+<!-- Task 4 - Expense Tracker -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker App</title>
+</head>
+<body>
+    <h1> Expense Tracker App </h1>
+    <form id="expense-form">
+        <input type="number" id="amount" placeholder="Amount" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <button type="submit">Add Expense</button>
+    </form>
+    <table id="expense-table">
+        <thead>
+            <tr>
+                <th>Amount</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="expense-list">
+        </tbody>
+    </table>
+    <p id="total">Total: $0.00</p>
+    <script src="App.js"></script>
+</body>
+</html>
+
+
+
